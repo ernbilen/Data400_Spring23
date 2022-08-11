@@ -39,14 +39,14 @@ Grades will be based on the categories listed below with the corresponding weigh
 
 Assignment                   | Points |   Percent  |
 -----------------------------|--------|------------|
-Research Questions  				 |   15   |		 15.0%   |
-Proposal presentation				 |   15   |		 15.0%	 |
-Progress report			 			   |    5   |		  5.0%	 |
-Progress presentation        |   10   |		 10.0%	 |
-Data + ReadMe Guide          |   15   |		 15.0%	 |
-Poster session               |   15   |		 15.0%	 |
-Final presentation           |   15   |		 15.0%	 |
-Class Participation          |   10   |    10.0%   |
+Research Questions  	     |   15   |    15.0%   |
+Proposal presentation	     |   15   |	   15.0%   |
+Progress report		     |    5   |	    5.0%   |
+Progress presentation        |   10   |	   10.0%   |
+Data + ReadMe guide          |   15   |    15.0%   |
+Poster session               |   15   |	   15.0%   |
+Final presentation           |   15   |	   15.0%   |
+Class participation          |   10   |    10.0%   |
 **Total points**             | **100** | **100.0%** |
 
 * **Assignments:** Your assignments will be submitted through Github. Each of you will maintain an individual Github repo where you upload your reports, presentations, data guide, and code. This will be useful when you apply for data analyst jobs.
