@@ -1,6 +1,6 @@
 # DATA 400: Senior Seminar in Data Analytics (Spring 2023) #
 
-|  | [Eren Bilen](http://ernbilen.github.io) |
+|  | [Eren Bilen](http://ernbilen.github.io){:target="_blank"} |
 |--------------|--------------------------------------------------------------|
 | Email | [bilene@dickinson.edu](mailto:bilene@dickinson.edu) |
 | Office | Rector North 1309 |
