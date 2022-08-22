@@ -1,0 +1,362 @@
+% Syllabus Data 400, Spring 2023
+% Eren Bilen
+
+\documentclass[11pt,letter]{article}
+\usepackage[left=1.3in,right=1.3in,top=.9in,bottom=1in]{geometry}
+
+\usepackage{setspace,mdwlist,comment}
+\setlength{\marginparwidth}{.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{1em}
+
+% mini table of contents
+\usepackage{minitoc}
+\dosecttoc % make section toc
+\setcounter{secttocdepth}{2} % subsection depth
+\renewcommand{\stctitle}{} % no title
+\nostcpagenumbers
+
+
+\usepackage{hyperref}
+\hypersetup{
+     colorlinks=true,
+     linkcolor=magenta,
+     filecolor=magenta,
+     citecolor = black,
+     urlcolor=magenta,
+    pdfnewwindow=true,
+    pdfborder={0 0 0}
+}
+
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{xcolor}
+\usepackage{multirow,booktabs,colortbl,tabularx}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\usepackage{graphicx}
+\usepackage{longtable}
+
+
+
+\titleformat{\section}
+  {\sffamily\large\bfseries}
+  {\thesection}{1em}{}
+\titlespacing\section{0pt}{0pt}{0pt}
+
+
+\title{{\sffamily\large\textbf{DATA 400: Senior Seminar in Data Analytics}\\ \ttfamily Spring 2023}}
+\date{}
+
+
+
+\usepackage{enumitem}
+\newcounter{dummy}
+
+\usepackage{mathpazo}
+
+
+\begin{document}
+
+
+
+\faketableofcontents
+
+
+\maketitle
+
+\vspace{-10em}
+
+
+
+\textit{(Last updated \today{}; syllabus is subject to change)}
+
+
+
+
+\begin{minipage}[t]{0.61\linewidth}
+\textbf{Instructor:} Professor Eren Bilen\\
+\textbf{Office:} Rector North 1309\\
+\textbf{Email:} \href{bilene@dickinson.edu}{bilene@dickinson.edu} \\
+\textbf{Phone}: 717-254-8162\\
+\textbf{Office Hours:} TBA
+\end{minipage}
+\begin{minipage}[t]{0.4\linewidth}
+\textbf{Classroom:} TBA
+\hspace{1em}\\
+\end{minipage}
+
+\section*{Required Course Materials}
+\begin{itemize}[nosep]
+	\item Ace the Data Science Interview: 201 Real Interview Questions Asked By FAANG, Tech Startups, and Wall Street; by Kevin Huo and Nick Singh
+\item BIG Jobs Guide: Business, Industry, and Government Careers for Mathematical Scientists, Statisticians, and Operations Researchers; by Rachel Levy, Richard Laugesen, Fadil Santosa
+\item The Effect, by Nick Huntington-Klein: \href{https://theeffectbook.net}{Link}
+\item Course webpage: \href{https://github.com/ernbilen/Data400_Spring23}{Github}
+\end{itemize}
+
+
+
+
+\section*{Course Overview}
+This capstone course aims to provide students a strong foundation for the must-have skills needed towards becoming a successful and ethical data analyst. The course must be completed successfully as the final core requirement for degree in data analytics. During the course, we will revisit topics that you have learned in your prior data analytics core courses. By the end of the course, you will produce a clear output: a data science project showcasing your data analysis skills. You should consider this course and the project as an opportunity to practice your oral presentation, writing, and time management skills. Additionally, we will discuss strategies that will help you navigate the job market in data analytics.
+
+A student who successfully completes this course should be able to do the following:
+\begin{itemize}[nosep]
+\item Develop research questions systematically that are feasible to implement in a reasonable timeline
+\item Evaluate what makes a research question ``good'' or ``bad''
+\item Distinguish correlations from causality, outline methodology and concisely explain results, characterize the limitations and uncertainty of statistical inference and machine learning algorithms
+\item Develop the ability to write about and express an opinion on an ethical issue in data analytics for a broad general and/or technical audience
+\end{itemize}
+
+
+\section*{Course Policies}
+\textbf{Attendance Policy:} This course will be taught in person in (TBA). Students are expected to attend all in-class meetings, which occur on (TBA). While I will not take formal attendance, it is important for you to attend in class meetings and take notes. If you will be unable to attend a class meeting for any health-related issues or other emergencies, please contact me beforehand so that arrangements can be made.
+
+\textbf{Use of Laptops, Tablets, and Phones:}  Laptops and tablets are permitted for note-taking during this course. In exchange for trusting you to use these devices, I ask that you not use them as distractions. I maintain the right to change this policy for individual students or for everyone if these tools become a problem during class. Phones are not permitted and should be put away in silent mode
+
+\textbf{Grading:} Your course grade is based on assignments that are tied closely with a semester long course project. First, you will submit three potential research questions involving data analysis. These questions can be ideas that you came up with during your previous courses, or can be new ones. A grading rubric to be used to evaluate your ideas will be provided beforehand. You will receive peer feedback and my feedback for each of your ideas. You will then select one idea that you will pursue further and provide a more detailed presentation to the class in form of a proposal presentation. Next, you will provide a technical presentation, related to specific tools you have to use/have used in order to complete your project (more info on this later). You can see the due dates attached at the end of this syllabus.
+
+Your final product will include a ReadMe guide explaining your data + how you obtained it, and a final presentation + slides. Your final presentation will be graded on hard skills (e.g., your model and how you implemented it) and soft skills (organization and clarity of your slides, delivery of your talk). You will have an opportunity to present your work to others during the student research symposium day, which is a campus-wide event held each year. Your participation throughout the semester is important. You will be assigned readings (see last page of the syllabus) and will be graded on how well you prepare and contribute to in-class discussions. The weights of the assignments are:
+
+
+\begin{minipage}{.9\textwidth}
+Research questions (one-page) (x3) (15\%): \\
+Proposal presentation (10-15 mins) (15\%): \\
+Progress report (1-2 pages) (5\%): \\
+Progress presentation (5-10 mins) (10\%): \\
+Data collection + ReadMe guide (15\%): \\
+Poster session (15\%):\\
+Final presentation (10-15 mins) (15\%):\\
+Participation in discussions (10\%)
+\end{minipage}%
+\hspace*{-5cm}
+\begin{minipage}{.5\textwidth}
+Due dates on Pg.5 \\
+Due dates on Pg.5 \\
+Due dates on Pg.5 \\
+Due dates on Pg.5 \\
+Due dates on Pg.5 \\
+Due dates on Pg.5\\
+Due dates on Pg.5\\
+\end{minipage} \\
+
+\clearpage
+The following scale will be used to determine your final grade:
+
+\begin{center}
+\begin{tabular}{lll@{\hskip .5in}lll}
+\textbf{Score} & \textbf{Letter} & \textbf{GPA} & \textbf{Score} & \textbf{Letter} & \textbf{GPA}\\
+\hline
+$93 \geq x$	&	A	&	4.0 &  $73 \leq x < 77$	&	C	&	2.0\\
+$90 \leq x < 93$	&	A-	&	3.7 & $70 \leq x < 73$	&	C-	&	1.7\\
+$87 \leq x < 90$	&	B+	&	3.3 & $67 \leq x < 70$	&	D+	&	1.3\\
+$83 \leq x < 87$	&	B	&	3.0 & $63 \leq x < 67$	&	D	&	1.0\\
+$80 \leq x < 83$	&	B-	&	2.7 & $60 \leq x < 63$	&	D-	&	0.7\\
+$77 \leq x < 80$	&	C+	&	2.3 & $x < 60$	&	F	&	0.0\\
+
+\end{tabular}
+\end{center}
+
+\textbf{Teams:} It is important that you gain practice in team work, as data analysts often work in teams. You will be asked to form \underline{teams of two} during the first two weeks of the course. You do have an option to pursue your project individually, if you wish to do so.
+
+\textbf{Datacamp:} You will receive an invitation to Datacamp.com, which will grant you access to all their tutorials on data science for the duration of the semester. Use this as an opportunity to brush up the skills that might be necessary for your project, or to gain practice before your interviews.
+
+\textbf{Writing in the Discipline (WiD):} This course is part of the WiD thread in the Data Analytics Major.
+Data scientists regularly report their analyses to their teams and other stakeholders. The types of writing that data scientists do takes on many different forms for a variety of audiences:
+graphical/visual representations, briefs, memos, reports, academic papers, code, data documentation, with audiences varying from developers, internal and external technical audiences to general audiences among others. Students
+completing the Data Analytics Major satisfy the WiD graduation requirement by maintaining a portfolio
+of assignments from the courses on the WiD Thread. This course will include one output (your final presentation slide deck) which will be added to your WiD portfolio, focusing specifically on:\\[-9mm]
+\begin{itemize}
+\item Communicating clearly the motivation and the goals of a data science project, providing a clear strategy for how the data was obtained
+\item Clearly and transparently documenting and annotating data sources, data wrangling, and variable descriptions.
+\end{itemize}
+
+\textbf{Ethics:} Data scientists must be aware of the ethical implications of their work. It must be true that a data science project or algorithm objectively improves the well-being of the society without introducing bias, unfairness, or a violation of privacy. We will critically evaluate each of the ideas you propose and your project from such ethical lens, and discuss case studies that will help you become more aware of the ethical issues that you will most likely face working as a data analyst.
+
+\textbf{Make-up:} If you must be away from campus on university business or due to an emergency, or you will miss a presentation day due to sickness, please reach out to me as soon as you can and provide documentation. The weight of the missed assignment will be shifted to other assignments.
+
+
+\section*{Getting Help}
+
+\textbf{Office Hours:} I will be holding office hours in-office. Please see the course page for the Zoom link that will be used throughout the semester.  My office hours are (TBA). I am also available by appointment.
+
+\iffalse
+\section*{Quantitative Reasoning Center}
+Dickinson College provides additional support for students taking courses with quantitative content across the curriculum through the Quantitative Reasoning (QR) Center. For the Spring 2023 semester, the QR Center will offer tutoring for our course, in addition to general quantitative support. You are strongly encouraged to make an appointment with them. \href{https://www.dickinson.edu/info/20525/quantitative_reasoning_center/2962/quantitative_reasoning_center}{Click here} to access the QR Center webpage.
+
+Please visit \href{https://dickinson.mywconline.com}{dickinson.mywconline.com} to make an appointment. Then, access the drop-down menu under ``limit to" at the top of the scheduler and select DATA 400. This will restrict the tutor list and schedule to only those tutors approved for this course. When you make your appointment, please also paste or upload your assignment and any work that you have done.
+\fi
+
+\section*{Other Important Information}
+
+\textbf{Referencing the Work of Others:}  When submitting your work, you must follow common-sense ground rules. You must cite all your resources in any delivery of your work. Failure to cite your references constitutes plagiarism. If you have any questions about what constitutes plagiarism, you should reach out to me, or you may contact the writing center. Here is a \href{https://www.dickinson.edu/download/downloads/id/9568/academic_integrity_quick_tips.pdf}{nice resource} that you can refer to for any questions regarding plagiarism.
+
+\textbf{Statement on Disabilities:} Dickinson values diverse types of learners and is committed to ensuring that each student is afforded equitable access to participate in all learning experiences. If you have (or think you may have) a learning difference or a disability -- including a mental health, medical, or physical impairment – that would hinder your access to learning or demonstrating knowledge in this class, please contact Access and Disability Services (ADS). They will confidentially explain the accommodation request process and the type of documentation that Dean and Director Marni Jones will need to determine your eligibility for reasonable accommodations. To learn more about available supports, go to \href{www.dickinson.edu/ADS}{www.dickinson.edu/ADS}, email \href{access@dickinson.edu}{access@dickinson.edu}, call (717) 245-1734, or go to the ADS office in Room 005 of Old West, Lower Level (aka ``the OWLL").
+
+If you have already been granted accommodations at Dickinson, please follow the guidance at \href{www.dickinson.edu/AccessPlan}{www.dickinson.edu/AccessPlan} for disclosing the accommodations for which you are eligible and scheduling a meeting with me as soon as possible so that we can discuss your accommodations and finalize your Access Plan. If test proctoring will be needed from ADS, remember that we will need to complete your Access Plan in time to give them at least one week’s advance notice.
+
+\textbf{SOAR: Academic Success Support}: Students can find a wealth of strategic guidance by going to \href{www.dickinson.edu/SOAR}{www.dickinson.edu/SOAR}. This website for SOAR (Strategies, Organization, and Achievement Resources) includes apps, tips, and other resources related to time management, study skills, memory strategies, note-taking, test-taking, and more. You will also find information aimed to helps students ``SOAR Through Academic Challenges," as well as a schedule of academic success workshops offered through Academic Advising. If you would like to request one-on-one assistance with developing a strategy for a manageable and academically successful semester, email \href{SOAR@dickinson.edu}{SOAR@dickinson.edu}.
+
+
+\textbf{Course Outline:} Below is a schedule for what will be covered in this course and the deadlines. There may be adjustments on the list during the semester depending on progress made in class. On Mondays, we will have an in-class discussion/mini-lecture on the week's topic. Thursdays will consist of project meeting sessions during which you can work on your project in class and ask me any questions that you might have about your project. \\
+\clearpage
+\iffalse
+\begin{itemize}[nosep]
+  \item \textbf{Week 1}\\
+    Introduction to the course. Overview of the course structure and assignments.
+    \textit{Mini-lecture topic: Data Analyst job postings, Github portfolio.}
+  \item \textbf{Week 2}\\
+  To-do: Brainstorm Research Questions/Topics related to your interests. Explore potential data sources related to these topics. Meet with a faculty member in domain area. Form teams.
+        \textit{Mini-lecture topic: How to ask good research questions?}
+  \item \textbf{Week 3}\\
+      \textit{Mini-lecture topic: Revisiting Data 180.}
+  \item \textbf{Week 4}\\
+      \textit{Mini-lecture topic: Revisiting Data 200.}
+  \item \textbf{Week 5}\\
+      Readings: AI, Ethics\\
+      \textit{Mini-lecture topic: Revisiting Phil 200.}
+  \item \textbf{Week 6}\\
+      Spring Break: no class.
+  \item \textbf{Week 7}\\
+      \textit{Mini-lecture topic: Revisiting Data 300.}
+  \item \textbf{Week 8}\\
+      \textit{Mini-lecture topic: Artificial Neural Networks (ANNs).}
+  \item \textbf{Week 9}\\
+      \textit{Mini-lecture topic: Analyzing text data.}
+  \item \textbf{Week 10}\\
+      \textit{Mini-lecture topic: Geographic Data: Geopandas.}
+  \item \textbf{Week 11}\\
+      \textit{Mini-lecture topic: Interactive visualization: Shiny}
+  \item \textbf{Week 12}\\
+      \textit{Mini-lecture topic: Interactive visualization: Bokeh}
+  \item \textbf{Week 13}\\
+      \textit{Mini-lecture topic: Data Science: The Board Game}
+  \item \textbf{Week 14}\\
+      \textit{Mini-lecture topic: NA- wrap up projects}
+  \item \textbf{Week 15}\\
+      \textit{Mini-lecture topic: NA- wrap up projects}
+\end{itemize}
+\fi
+
+\hspace{-1.3cm}\textbf{Course outline}\\[3mm]
+\scalebox{.82}{\hspace{-1.8cm}\begin{tabular}{ L{4.2cm}L{8.2cm}L{3.6cm}L{4.1cm}}
+\hline \hline
+ \textbf{Date} & \textbf{Topic}   &  \textbf{Readings} &  \textbf{Due} \\
+\midrule
+Week 1   &   Data Analyst job postings, Github portfolio    & ADSI Ch 1,2- \href{https://data36.com/data-science-cv-resume-cover-letter-github/\#resume}{1}, \href{https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md}{2}  & \\
+Week 2   &  How to ask good research questions?   &  \href{https://theeffectbook.net/ch-ResearchQuestions.html\#what-is-a-research-question}{1}, \href{https://theeffectbook.net/ch-Identification.html}{2} & teams \\
+Week 3   &   Revisiting Data 180   &  \href{https://biscuitchaserfc.substack.com/p/shot-maps-in-r-with-statsbomb-data}{1}, \href{https://statsepi.substack.com/p/reproducible-data-analysis-workflows}{2} & idea 1 \\
+Week 4   &   Revisiting Data 200   &  ADSI Ch 8 & idea 2 \& 3 \\
+Week 5   &   Revisiting Phil 258     &   \href{https://www.science.org/doi/epdf/10.1126/science.aaf2654}{1}, \href{http://latanyasweeney.org/JLME.pdf}{2}, \href{https://online.datasciencedojo.com/blogs/big-data-ethics-10-experiments/}{3}, \href{https://www.workingamerica.org/fixmyjob/badboss/illegal-or-unethical-behavior-work}{4}, \href{https://www.scu.edu/media/ethics-center/technology-ethics/IntroToDataEthics.pdf\#page=9}{5} & data sub (recomm.) \\
+\textbf{February 23}   &   \textbf{Proposal presentations}   &  &  \\
+Week 6  &   Revisiting Data 300    &  ADSI Ch 7 &  \\
+Week 7  &  Select tech topic 1   &  NLP, ANN, Geodata & \\
+\textbf{March 9}   &   \textbf{Progress report}   &  & \\
+Week 8  & \textit{Spring break} & \\
+Week 9   &   Select tech topic 2   &  NLP, ANN, Geodata &  data sub (final) \\
+Week 10  &   Interactive visualization: Tableau, Shiny  & \href{https://www.datacamp.com/courses/introduction-to-tableau}{1}, \href{https://shiny.rstudio.com/gallery}{2}, \href{https://flowingdata.com/tag/new-york-times/}{3}, \href{https://fivethirtyeight.com/tag/data-visualization}{4} & \\
+Week 11  &   Interactive visualization: Bokeh, Streamlit  & \href{https://docs.bokeh.org/en/latest/docs/gallery.html}{1}, \href{https://docs.bokeh.org/en/latest/docs/first_steps.html}{2}, \href{https://streamlit.io}{3}, \href{https://streamlit.io/gallery}{4}   & \\
+\textbf{April 6}   &   \textbf{Progress presentations}   &  &  \\
+Week 12  &   Data Science: The video game  & Link TBA & \\
+Week 13  &   Wrap up projects  &  & data readme \\
+Week 14  &   Wrap up projects  &  &  \\
+\textbf{April 27, Thursday @5pm}  &  \textbf{Poster day}    &  &   \\
+Week 15  &   Wrap up projects  &  & \\
+\textbf{May 9, Tuesday @2pm}  &  \textbf{Final presentation}    &  &   \\
+\bottomrule
+\end{tabular}}\vspace{2mm}
+{\footnotesize{ADSI: Ace the Data Science Interview}}
+
+\vspace{1cm}
+
+\hspace{-15mm}
+\scalebox{.83}{
+\begin{tabular}{ll}
+\textbf{Important Dates for the Spring 2023 Semester} & \\
+\hline
+Last Day to Add/Drop or Change to/from Pass/Fail &	Sunday, January 29 \\
+Spring Vacation & Monday, March 13 thru, Friday, March 17 \\
+Last Day to Withdraw from a Course with a ``W'' grade	& Friday, April 21 \\
+Classes End	&Friday, Friday, May 5 \\
+Reading Period Days &	May 6, 7 \\
+\hline
+\end{tabular}}
+
+
+
+\iffalse
+
+
+\refstepcounter{dummy}
+\clearpage
+\newgeometry{left=1in,right=.1in,top=.5in,bottom=.1in}
+\vspace*{-.1cm}
+\noindent \textbf{Semester Schedule}
+\begin{small}
+\vspace{5mm}
+
+
+\scalebox{.82}{\hspace{-.2cm}\begin{tabular}{ L{2.2cm}L{1.4cm}L{6.6cm}L{5.4cm}C{3.1cm}}
+\hline \hline
+ Date & Day   & Chapter/Topic
+     &
+     Game in class & Homework Due  \\
+\midrule
+\textbf{Week 1}   \\
+Jan 25   &   T    &  Ch0: Introduction to Game Theory  &   Dow Jones &       \\
+Jan 28   &   Tr    &  Ch3: Sequential Move Games    &  Century Mark, Centipede game   &    \\
+\textbf{Week 2}   \\
+Feb 1  &   T    & Ch3: Sequential Move Games  &    &       \\
+Feb 3   &   Tr    &  Ch3: Sequential Move Games   &      &    \\
+\textbf{Week 3}   \\
+Feb 8  &   T    &  Ch4: Simultaneous Move Games  &    Tender offer &       \\
+Feb 10   &   Tr    &  Ch4: Simultaneous Move Games &    Guessing, Lake Woebegon  &     \\
+\textbf{Week 4}   \\
+Feb 15  &   T    &  Ch4-2: Multiple Equilibria  &   City pair, Traveler's Dilemma &       \\
+Feb 17   &   Tr    &  Ch5: Continuous Strategies  & Bertrand competition  &  \#1  \\
+\textbf{Week 5}   \\
+Feb 22  &   T    &  Ch6: Dynamic Games  &     &       \\
+Feb 24   &   Tr    &  Ch6: Dynamic Games  &      &    \\
+\textbf{Week 6}   \\
+Mar 1 &   T    &  Ch7: Probability review  &   &  \#2  \\
+Mar 3   &   Tr    &  \textbf{Midterm \#1}  &       \\
+\textbf{Week 7}   \\
+Mar 8 &   T    &  Ch7: Mixed Strategies  &    &       \\
+Mar 10   &   Tr    &  Ch7: Mixed Strategies   &   &   \\
+\textbf{Week 8}   \\
+Mar 15 &   T    &  \textit{Spring Break: No Class}     & &       \\
+Mar 17   &   Tr    &  \textit{Spring Break: No Class}     & &       \\
+\textbf{Week 9}   \\
+Mar 22 &   T   &  Ch9: Signaling  & Lemon's market &       \\
+Mar 24   &   Tr    &  Ch9: Signaling   &  &  \#3  \\
+\textbf{Week 10}   \\
+Mar 29 &   T    &  Ch9: Signaling   &     &       \\
+Mar 31   &   Tr    &  Ch11: Repeated Games   &   &    \\
+\textbf{Week 11}   \\
+Apr 5 &   T    &  \textbf{Midterm \#2}  &  & \#4   \\
+Apr 7  &   Tr    & Ch16: Auctions  & Auction games &    \\
+\textbf{Week 12}   \\
+Apr 12 &   T    &  Ch16: Auctions  &   &    \\
+Apr 14   &   Tr   & Ch16: Auctions  &   &   \\
+\textbf{Week 13}   \\
+Apr 19 &   T    &  Ch17: Bargaining  &   &  \\
+Apr 21   &   Tr     &  Ch17: Bargaining & UG \& DG &    \\
+\textbf{Week 14}   \\
+Apr 26 &   T    & Ch17b: Matching &  &    \\
+Apr 28   &   Tr    &  Ch17b: Matching &       &  \#5  \\
+\textbf{Week 15}   \\
+May 3 &   T    & Presentations &    &    \\
+May 5   &   Tr    & Presentations &      &  \#6  \\
+& \\
+May 9    &   T    &  \textbf{Final Exam, 2:00-5:00pm} & \textbf{Comprehensive}  & &  \\
+
+\bottomrule
+\end{tabular}}
+
+\end{small}
+
+\fi
+
+
+\end{document}
