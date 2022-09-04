@@ -58,6 +58,7 @@ Class participation          |   10   |    10.0%   |
 ## Helpful Links ##
 
 * [The Effect ](https://theeffectbook.net) by Nick Huntington-Klein
+* [LaTeX Cheat Sheet](http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf) and [an excellent tutorial](https://www.youtube.com/watch?v=NXW4cbHBthY) by Dave Richeson
 * [QuantEcon](https://quantecon.org)
 * [Notes on Machine Learning & Artificial Intelligence](https://chrisalbon.com) by Chris Albon
 
