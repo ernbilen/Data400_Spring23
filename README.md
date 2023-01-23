@@ -52,7 +52,7 @@ Class participation          |   10   |    10.0%   |
 * **Assignments:** Your assignments will be submitted through Github. Each of you will maintain an individual Github repo where you upload your reports, presentations, data guide, and code. This will be useful when you apply for data analyst jobs.
 	* You are encouraged to work in teams of two. However, you must understand and be able to explain **all** parts of the code you are submitting. I **DO** want to see each of you learning how to code solutions so that you could do it later on your own.
 	* Your assignments, both written and code portions, will be turned in via a pull request from your private [GitHub.com](https://git-scm.com/) repository which is a fork of the class master repository on my account. (You will need to set up a GitHub account if you do not already have one.)
-	* Assignments will be due on the second class meeting of the week, with dates listed in the pdf version of this syllabus, unless otherwise specified. Late assignments will not be graded.
+	* Due dates for each assignment will be announced. Late assignments will not be graded.
 
 
 ## Helpful Links ##
