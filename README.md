@@ -7,7 +7,7 @@
 | Office Hours | TBA |
 | GitHub | [ernbilen](https://github.com/ernbilen) |
 
-* **Meeting day/time**: TBA, Room TBA
+* **Meeting day/time**: T-Th 9:00-10:15am, Tome 232
 * Office hours also available by appointment.
 
 
