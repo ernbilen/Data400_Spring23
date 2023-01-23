@@ -1,0 +1,5 @@
+Tractable data
+Data retrieval
+Correct specification of model
+Implications for stakeholders
+Ethical, legal, societal implications
