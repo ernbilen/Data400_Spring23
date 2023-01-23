@@ -65,4 +65,4 @@ Class participation          |   10   |    10.0%   |
 
 ## Reasonable Accommodations for Students with Disabilities: ##
 
-If you have any condition, such as a physical or learning disability, which will make it difficult for you to carry out the work as I have outlined it or which will require academic accommodations, please notify me through email AND in person with the appropriate documentation during the first two weeks of the course.
+If you have any condition, such as a physical or learning disability, which will make it difficult for you to carry out the work as I have outlined it or which will require academic accommodations, please notify me through email with the appropriate documentation during the first two weeks of the course.
