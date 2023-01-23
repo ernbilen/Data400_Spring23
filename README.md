@@ -30,7 +30,7 @@ This capstone course aims to provide students a strong foundation for the must-h
 	* Collaboration tools for writing code using [Git](https://git-scm.com/) and [GitHub.com](https://github.com/).
 * You will get prepared for the job market in data analytics:
 	* You will have a well prepared application package prepared including a clean resume, data/projects repo showcasing your skills
-	* Gain interview skills, revisit technical concepts you have learned in your previous data analytics courses
+	* Revisit technical concepts you have learned in your previous data analytics courses
 
 
 ## Grades ##
