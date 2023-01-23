@@ -1,5 +1,7 @@
-1. Tractable data
-1. Data retrieval
-1. Correct specification of model
-1. Implications for stakeholders
-1. Ethical, legal, societal implications
+| Item      | weight |
+| ----------- | ----------- |
+| Tractable data | 20% |
+| Data retrieval | 20% |
+| Correct specification of the model | 20% |
+| Implications for stakeholders | 20% |
+| Ethical, legal, societal implications | 20% |
