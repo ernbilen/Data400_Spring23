@@ -55,7 +55,7 @@ Class participation          |   10   |    10.0%   |
 	* Due dates for each assignment will be announced. Late assignments will not be graded.
 
 
-## Helpful Links ##
+## Helpful Links Hahahaha##
 
 * [The Effect ](https://theeffectbook.net) by Nick Huntington-Klein
 * [LaTeX Cheat Sheet](http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf) and [an excellent tutorial](https://www.youtube.com/watch?v=NXW4cbHBthY) by Dave Richeson
