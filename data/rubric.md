@@ -6,4 +6,4 @@
 | Implications for stakeholders | 20% |
 | Ethical, legal, societal implications | 20% |
 
-Jimmy Was Here
+Jimmy Was Here!
