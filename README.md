@@ -13,7 +13,7 @@
 
 ## Course description ##
 
-Test. This capstone course aims to provide students a strong foundation for the must-have skills needed towards becoming a successful and ethical data analyst. The course must be completed successfully as the final core requirement for degree in data analytics. During the course, we will revisit topics that you have learned in your prior core data analytics courses. By the end of the course, you will produce a clear output: a data science project showcasing your data analysis skills. You should consider this course and the project as an opportunity to practice your oral presentation, writing, and time management skills. Additionally, we will discuss strategies that will help you navigate the job market for data analytics.
+Test. Test2 This capstone course aims to provide students a strong foundation for the must-have skills needed towards becoming a successful and ethical data analyst. The course must be completed successfully as the final core requirement for degree in data analytics. During the course, we will revisit topics that you have learned in your prior core data analytics courses. By the end of the course, you will produce a clear output: a data science project showcasing your data analysis skills. You should consider this course and the project as an opportunity to practice your oral presentation, writing, and time management skills. Additionally, we will discuss strategies that will help you navigate the job market for data analytics.
 
 
 ## Course Objectives and Learning Outcomes ##
