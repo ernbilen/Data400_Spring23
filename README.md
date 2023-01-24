@@ -33,7 +33,7 @@ This capstone course aims to provide students a strong foundation for the must-h
 	* Revisit technical concepts you have learned in your previous data analytics courses
 
 
-## Grades ##
+## Grades   ##
 
 Grades will be based on the categories listed below with the corresponding weights.
 
