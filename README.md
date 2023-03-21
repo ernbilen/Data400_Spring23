@@ -1,4 +1,4 @@
-# DATA 400: Senior Seminar in Data Analytics (Spring 2023) #
+# DATA 400: Capstone in Data Analytics (Spring 2023) #
 
 |  | [Eren Bilen](http://ernbilen.github.io) |
 |--------------|--------------------------------------------------------------|
