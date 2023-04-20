@@ -1,68 +1,39 @@
-# DATA 400: Senior Seminar in Data Analytics (Spring 2023) #
+# Google Maps: Unsupervised Learning on Restaurants in PA
+## _Zimeng Liu_
+> As students at Dickinson College, we have gone to many local restaurants. But do we really know about the general scene of Carlisle's food service industry? In this research, profiles for restaurants in Carlisle, Pittsburgh, Harrisburg, and Philadelphia, are created using the information on all restaurants in these cities on Google Maps. The result shows that Carlisle has more restaurants with a rating between 3.5 and 4.0 than the other three cities. Based on the result of the regression, there is no correlation between rating, number of ratings, and category of restaurants. Moreover, by doing text analysis on the reviews of restaurants in Carlisle, the patterns of comments with good ratings and bad ratings are shown. 
 
-|  | [Eren Bilen](http://ernbilen.github.io) |
-|--------------|--------------------------------------------------------------|
-| Email | [bilene@dickinson.edu](mailto:bilene@dickinson.edu) |
-| Office | Rector North 1309 |
-| Office Hours | [calendly](https://calendly.com/bilene/office-meeting?month=2023-01) <br> M 9:00-10:30am, <br> Th 10:20-11:50am|
-| GitHub | [ernbilen](https://github.com/ernbilen) |
+### Data Dictionary
+#### `PA0413.csv`
+Dataset of information on all restaurants in Carlisle, Pittsburgh, Harrisburg, and Philadelphia on Google Maps.
+- 650 rows x 6 columns
+- 118 restaurants in Carlisle, 191 restaurants in Pittsburgh, 160 restaurants in Harrisburg, 181 restaurants in Philadelphia
+- Data is collected from Google Maps by 03/30/2023
 
-* **Meeting day/time**: T-Th 9:00-10:15am, Tome 232
-* Office hours also available by appointment.
+|variable           |class     |description        |
+|:------------------|:---------|:------------------|
+|userid             |character |Name of each restaurant |
+|rating             |float     |Rating of each restaurant (with one decimal place)|
+|rating_number      |integer   |Number of reviews of each restaurant |
+|category           |character |Category of each restaurant set by the business |
+|address            |character |Address of each restaurant |
+|city               |character |City in each restaurant is located |
 
+#### `CarlisleReview0413new.csv`
+Dataset of information on restaurant reviews in Carlisle.
+- 16897 rows x 9 columns
+- data of 32 restaurants in Carlisle (118 in total)
+- Data is collected from Google Maps by 04/12/2023
 
-## Course description      ##
+|variable           |class     |description        |
+|:------------------|:---------|:------------------|
+|restaurant         |character |Name of the restaurant |
+|name               |character |Name of the reviewer of each review |
+|rating             |float     |Rating of each review |
+|time               |character |Length of time since each review was left |
+|comment            |character |Content of each review (empty if only the reviewer only left rating) |
+|before             |boolean   |If the review is given approximately before COVID-19 (before April 2020) |
+|covid              |boolean   |If the review is given approximately during COVID-19 (after April 2020 & before April 2021*) |
+|after              |boolean   |If the review is given approximately after COVID-19 (after April 2021) |
+|period             |character |Period of each review was left (before, during, or after COVID-19)
+*Governor Wolf announced that the indoor dining capacity raises to 75% for those restaurants that are self-certified on 03/16/2021, effective on 04/04/2021.
 
-This capstone course aims to provide students a strong foundation for the must-have skills needed towards becoming a successful and ethical data analyst. The course must be completed successfully as the final core requirement for degree in data analytics. During the course, we will revisit topics that you have learned in your prior core data analytics courses. By the end of the course, you will produce a clear output: a data science project showcasing your data analysis skills. You should consider this course and the project as an opportunity to practice your oral presentation, writing, and time management skills. Additionally, we will discuss strategies that will help you navigate the job market for data analytics.
-
-
-## Course Objectives and Learning Outcomes ##
-
-* You will learn how to implement a data science project under a feasible timeline. In the process, you will learn skills such as:
-	* Develop research questions systematically that are feasible to implement in a reasonable timeline
-	* Evaluate what makes a research question good or bad
-	* Distinguish correlations from causality, outline methodology and concisely explain results, and characterize the limitations and uncertainty of statistical inference and machine learning algorithms
-	* Develop the ability to write about and express an opinion on an ethical issue in data analytics for a broad general and/or technical audience
-* You will learn how to use software to increase your research productivity and learn coding and collaboration techniques such as:
-	* Best practices for Python coding ([PEP 8](https://www.python.org/dev/peps/pep-0008/))
-	* Writing modular code with functions and objects
-	* Creating clear docstrings for functions and variables
-	* Collaboration tools for writing code using [Git](https://git-scm.com/) and [GitHub.com](https://github.com/).
-* You will get prepared for the job market in data analytics:
-	* You will have a well prepared application package prepared including a clean resume, data/projects repo showcasing your skills
-	* Revisit technical concepts you have learned in your previous data analytics courses
-
-
-## Grades   ##
-
-Grades will be based on the categories listed below with the corresponding weights.
-
-Assignment                   | Points |   Percent  |
------------------------------|--------|------------|
-Research Questions  	     |   15   |    15.0%   |
-Proposal presentation	     |   15   |	   15.0%   |
-Progress report		     |    5   |	    5.0%   |
-Progress presentation        |   10   |	   10.0%   |
-Data + ReadMe guide          |   15   |    15.0%   |
-Poster session               |   15   |	   15.0%   |
-Final presentation           |   15   |	   15.0%   |
-Class participation          |   10   |    10.0%   |
-**Total points**             | **100** | **100.0%** |
-
-* **Assignments:** Your assignments will be submitted through Github. Each of you will maintain an individual Github repo where you upload your reports, presentations, data guide, and code. This will be useful when you apply for data analyst jobs.
-	* You are encouraged to work in teams of two. However, you must understand and be able to explain **all** parts of the code you are submitting. I **DO** want to see each of you learning how to code solutions so that you could do it later on your own.
-	* Your assignments, both written and code portions, will be turned in via a pull request from your private [GitHub.com](https://github.com/) repository which is a fork of the class master repository on my account. (You will need to set up a GitHub account if you do not already have one.)
-	* Due dates for each assignment will be announced. Late assignments will not be graded.
-
-
-## Helpful Links ##
-
-* [The Effect ](https://theeffectbook.net) by Nick Huntington-Klein
-* [LaTeX Cheat Sheet](http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf) and [an excellent tutorial](https://www.youtube.com/watch?v=NXW4cbHBthY) by Dave Richeson
-* [QuantEcon](https://quantecon.org)
-* [Notes on Machine Learning & Artificial Intelligence](https://chrisalbon.com) by Chris Albon
-
-
-## Reasonable Accommodations for Students with Disabilities: ##
-
-If you have any condition, such as a physical or learning disability, which will make it difficult for you to carry out the work as I have outlined it or which will require academic accommodations, please notify me through email with the appropriate documentation during the first two weeks of the course.
